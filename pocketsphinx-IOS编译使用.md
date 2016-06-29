@@ -32,3 +32,4 @@ pocketsphinx-ios-demo跟android一样也是踏着坑一路走来，在此小结�
 [OpenEars](http://www.politepix.com/openears/)
 [TLSphinx](https://github.com/tryolabs/TLSphinx)  
 [sphinx-demo](https://github.com/aperturescience/sphinx-demo)    
+[VocalKit](https://github.com/KingOfBrian/VocalKit)
