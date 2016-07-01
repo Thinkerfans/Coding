@@ -3,7 +3,7 @@
 Xcode: Version 7.3.1 (7D1014)  
 
 
-pocketsphinx-ios-demo跟android一样也是踏着坑一路走来，在此小结记录下：
+pocketsphinx-ios-demo跟android一样也是踩着坑走来，在此小结记录下：
 
 ### pocketspinx-IOS静态库编译流程：
 按住官网给出的流程走   
@@ -17,14 +17,17 @@ pocketsphinx-ios-demo跟android一样也是踏着坑一路走来，在此小结�
 
 
 ### pocketspinx-IOS使用Demo：
-
-
+参考android jni 里面的使用。
 
 ####问题纪录：
 问题一:
 ```./build_iphone.sh: line 52: ~/cmusphinx/pocketsphinx-ios-demo/configure: No such file or directory```
 原因：没有认真阅读README.md说明
 解决方法：如上流程。
+
+问题二:   
+语音识别非常不准确？    
+原因：pocketsphinx语音识别默认的采样率是16000，而我在录音频时设置采样率为8000，将二者改成一致，识别准确率就上来了。
 
 
 参考链接：    

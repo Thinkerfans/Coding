@@ -42,4 +42,5 @@ make: *** No rule to make target `../sphinxbase/src/libsphinxbase/feat/cmn_prior
 
 参考链接：  
 [pocketsphinx-android](http://cmusphinx.sourceforge.net/wiki/tutorialandroid)   
-[编译 pocketsphinx-android](http://www.android-studio.com.cn/article/38)
+[编译 pocketsphinx-android](http://www.android-studio.com.cn/article/38)   
+[lmtool](http://www.speech.cs.cmu.edu/tools/lmtool.html)
